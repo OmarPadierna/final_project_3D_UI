@@ -123,11 +123,6 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
---- !u!4 &9811630 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 8034696681428343411, guid: 8f139e0dbaaed43099e84e5adc7cd25a, type: 3}
-  m_PrefabInstance: {fileID: 1152760745394157347}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &15718880
 GameObject:
   m_ObjectHideFlags: 0
@@ -1516,6 +1511,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 829061197}
     m_Modifications:
+    - target: {fileID: 1037593126625790254, guid: 8f139e0dbaaed43099e84e5adc7cd25a, type: 3}
+      propertyPath: m_Name
+      value: NetflixSceneMinimap
+      objectReference: {fileID: 0}
     - target: {fileID: 2370510095001249210, guid: 8f139e0dbaaed43099e84e5adc7cd25a, type: 3}
       propertyPath: m_IsActive
       value: 0
@@ -1583,7 +1582,7 @@ PrefabInstance:
     - target: {fileID: 8955693875086833609, guid: 8f139e0dbaaed43099e84e5adc7cd25a, type: 3}
       propertyPath: minimapOrigin
       value: 
-      objectReference: {fileID: 196322393}
+      objectReference: {fileID: 292230256}
     - target: {fileID: 8955693875086833609, guid: 8f139e0dbaaed43099e84e5adc7cd25a, type: 3}
       propertyPath: playerTransform
       value: 
@@ -1591,7 +1590,7 @@ PrefabInstance:
     - target: {fileID: 8955693875086833609, guid: 8f139e0dbaaed43099e84e5adc7cd25a, type: 3}
       propertyPath: environmentOrigin
       value: 
-      objectReference: {fileID: 9811630}
+      objectReference: {fileID: 543450653361685936}
     - target: {fileID: 8955693875086833609, guid: 8f139e0dbaaed43099e84e5adc7cd25a, type: 3}
       propertyPath: playerReferenceTransform
       value: 
@@ -2071,6 +2070,11 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 269346896}
   m_CullTransparentMesh: 1
+--- !u!4 &292230256 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 373119129677894548, guid: 8f139e0dbaaed43099e84e5adc7cd25a, type: 3}
+  m_PrefabInstance: {fileID: 196322392}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &309251400 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2871854915733156396, guid: 65eb6b98091a5734ba9d9ca871cef69a, type: 3}
@@ -11618,7 +11622,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1598269139
 Transform:
   m_ObjectHideFlags: 0
@@ -12422,7 +12426,7 @@ Light:
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
-  m_BoundingSphereOverride: {x: 1.1914092e+36, y: 0, z: 1.7825e-41, w: NaN}
+  m_BoundingSphereOverride: {x: 4e-44, y: 1.016e-41, z: 1.5e-44, w: 0}
   m_UseBoundingSphereOverride: 0
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
@@ -14834,6 +14838,11 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2140134476}
   m_CullTransparentMesh: 1
+--- !u!4 &543450653361685936 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 373119129677894548, guid: 8f139e0dbaaed43099e84e5adc7cd25a, type: 3}
+  m_PrefabInstance: {fileID: 1152760745394157347}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &875576289324360096
 GameObject:
   m_ObjectHideFlags: 0
