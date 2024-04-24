@@ -26,7 +26,7 @@ public class TooltipNavigationManager : MonoBehaviour
     [SerializeField]
     public Transform classicsRoom;
     [SerializeField]
-    public Transform misteryRoom;
+    public Transform mysteryRoom;
 
     public void OnHorrorTooltipClicked()
     {
@@ -70,7 +70,7 @@ public class TooltipNavigationManager : MonoBehaviour
 
     public void OnMisteryTooltipClicked()
     {
-        TeleportPlayer(misteryRoom);
+        TeleportPlayer(mysteryRoom);
     }
 
 
