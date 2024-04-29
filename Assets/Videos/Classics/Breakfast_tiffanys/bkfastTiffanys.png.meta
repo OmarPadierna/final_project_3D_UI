@@ -1,0 +1,4183 @@
+fileFormatVersion: 2
+guid: 62118ab47240b40adbd72b5848bf46e2
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: VisionOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: bkfastTiffanys_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 15200
+        width: 1080
+        height: 608
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc4c610a17d424ef9b5b0548ff9d7740
+      internalID: 843858546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bkfastTiffanys_1
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 15200
+        width: 1080
+        height: 608
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56d89ede0ff0845638f15c388ecf49e1
+      internalID: 112407150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bkfastTiffanys_2
+      rect:
+        serializedVersion: 2
+        x: 2160
+        y: 15200
+        width: 1080
+        height: 608
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18252af25afaa4f0da778055b38f4c57
+      internalID: -1986657446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bkfastTiffanys_3
+      rect:
+        serializedVersion: 2
+        x: 3240
+        y: 15200
+        width: 1080
+        height: 608
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a2c1abc8127f4fe6a436e9980219595
+      internalID: -1559107216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bkfastTiffanys_4
+      rect:
+        serializedVersion: 2
+        x: 4320
+        y: 15200
+        width: 1080
+        height: 608
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b27ae2e3485374d9ebb5647f628ea1a1
+      internalID: -1910292613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bkfastTiffanys_5
+      rect:
+        serializedVersion: 2
+        x: 5400
+        y: 15200
+        width: 1080
+        height: 608
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0bd3c1f60c864e279b830670a96ef21
+      internalID: -809218277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bkfastTiffanys_6
+      rect:
+        serializedVersion: 2
+        x: 6480
+        y: 15200
+        width: 1080
+        height: 608
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7efbc331bc3d4b6c9b6348349872334
+      internalID: 1367656607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bkfastTiffanys_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 14592
+        width: 1080
+        height: 608
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c51da54b6d3ca480c81253d936aafa8a
+      internalID: 630739141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bkfastTiffanys_8
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 14592
+        width: 1080
+        height: 608
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6193c0681ac614340abf315b20c1c702
+      internalID: 2024621045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bkfastTiffanys_9
+      rect:
+        serializedVersion: 2
+        x: 2160
+        y: 14592
+        width: 1080
+        height: 608
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc7849b076a7c4fff96f0b9a28c0c982
+      internalID: -411907031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bkfastTiffanys_10
+      rect:
+        serializedVersion: 2
+        x: 3240
+        y: 14592
+        width: 1080
+        height: 608
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7cae48d34715f481684dc9c42ebc34eb
+      internalID: -217844349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bkfastTiffanys_11
+      rect:
+        serializedVersion: 2
+        x: 4320
+        y: 14592
+        width: 1080
+        height: 608
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6fcbe69f563140ba88c8c2cc073dd50
+      internalID: 1778002149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bkfastTiffanys_12
+      rect:
+        serializedVersion: 2
+        x: 5400
+        y: 14592
+        width: 1080
+        height: 608
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3682642c3acf84b32a7cab78b1d133b5
+      internalID: -483287835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bkfastTiffanys_13
+      rect:
+        serializedVersion: 2
+        x: 6480
+        y: 14592
+        width: 1080
+        height: 608
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b295af1b582b84635887dcb10982594a
+      internalID: 1328147563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bkfastTiffanys_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 13984
+        width: 1080
+        height: 608
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff29ee8151aa44769a3b60247e87f240
+      internalID: -1993976900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bkfastTiffanys_15
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 13984
+        width: 1080
+        height: 608
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef28e5d2d5681464d881a366eae09a6e
+      internalID: 2112949348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bkfastTiffanys_16
+      rect:
+        serializedVersion: 2
+        x: 2160
+        y: 13984
+        width: 1080
+        height: 608
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2dbdc00f554044449b4a9460ca5516bd
+      internalID: -229512722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bkfastTiffanys_17
+      rect:
+        serializedVersion: 2
+        x: 3240
+        y: 13984
+        width: 1080
+        height: 608
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b05559bdf536d4a12b246bf478d39644
+      internalID: 336852925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bkfastTiffanys_18
+      rect:
+        serializedVersion: 2
+        x: 4320
+        y: 13984
+        width: 1080
+        height: 608
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9eb5a94c9ea0645baa9bdfbe9bea46a1
+      internalID: 795066455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bkfastTiffanys_19
+      rect:
+        serializedVersion: 2
+        x: 5400
+        y: 13984
+        width: 1080
+        height: 608
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04b6e788a803249988b405add83dbcec
+      internalID: -1002077489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bkfastTiffanys_20
+      rect:
+        serializedVersion: 2
+        x: 6480
+        y: 13984
+        width: 1080
+        height: 608
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 305b12acb7cc345b5872e626c4fb46be
+      internalID: -133234599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bkfastTiffanys_21
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 13376
+        width: 1080
+        height: 608
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10513ab07de0545169775dcdf38649e2
+      internalID: 1722904075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bkfastTiffanys_22
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 13376
+        width: 1080
+        height: 608
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ec452d8f9f6241a3aaf9c4b8a27418f
+      internalID: 519054612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bkfastTiffanys_23
+      rect:
+        serializedVersion: 2
+        x: 2160
+        y: 13376
+        width: 1080
+        height: 608
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a3e19ff06d63467b9cd1f63076511dd
+      internalID: 1526195143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bkfastTiffanys_24
+      rect:
+        serializedVersion: 2
+        x: 3240
+        y: 13376
+        width: 1080
+        height: 608
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 391c2e4731a3e4a1986ec656620b2235
+      internalID: 1594449375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bkfastTiffanys_25
+      rect:
+        serializedVersion: 2
+        x: 4320
+        y: 13376
+        width: 1080
+        height: 608
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 600f7ee8af7ff4c9dad0a0ff6b908efe
+      internalID: -914268733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bkfastTiffanys_26
+      rect:
+        serializedVersion: 2
+        x: 5400
+        y: 13376
+        width: 1080
+        height: 608
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a779ca45d7ee74bf98e8c5a24f7df4de
+      internalID: 1195461238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bkfastTiffanys_27
+      rect:
+        serializedVersion: 2
+        x: 6480
+        y: 13376
+        width: 1080
+        height: 608
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: add1a427533144793b6a25ff43d1e0af
+      internalID: -1794294500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bkfastTiffanys_28
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 12768
+        width: 1080
+        height: 608
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6785d6d5412284848a10d29e6961c5d8
+      internalID: -2025432236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bkfastTiffanys_29
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 12768
+        width: 1080
+        height: 608
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a169a2d6602534012bf8733d9c4898f3
+      internalID: -1600620873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bkfastTiffanys_30
+      rect:
+        serializedVersion: 2
+        x: 2160
+        y: 12768
+        width: 1080
+        height: 608
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82d938c19bd3b4ef3a329c89c464a14e
+      internalID: -847911670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bkfastTiffanys_31
+      rect:
+        serializedVersion: 2
+        x: 3240
+        y: 12768
+        width: 1080
+        height: 608
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6cac6ccca7977415283b42abbd0efdf4
+      internalID: -1215395083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bkfastTiffanys_32
+      rect:
+        serializedVersion: 2
+        x: 4320
+        y: 12768
+        width: 1080
+        height: 608
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc187be0db4c24bf987d0b6396304e2d
+      internalID: -1456716163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bkfastTiffanys_33
+      rect:
+        serializedVersion: 2
+        x: 5400
+        y: 12768
+        width: 1080
+        height: 608
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a437e7ddec4df42cfb3cbe6653528ac1
+      internalID: -1163560078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bkfastTiffanys_34
+      rect:
+        serializedVersion: 2
+        x: 6480
+        y: 12768
+        width: 1080
+        height: 608
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8650d5b0f7fce48efae1a9d5c60fffaa
+      internalID: -1679355400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bkfastTiffanys_35
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 12160
+        width: 1080
+        height: 608
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c3069b706ce849939b61cf8f1cfcbbf
+      internalID: -68422237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bkfastTiffanys_36
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 12160
+        width: 1080
+        height: 608
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bd634ed3aa6c471ab53309bdd934390
+      internalID: -359483404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bkfastTiffanys_37
+      rect:
+        serializedVersion: 2
+        x: 2160
+        y: 12160
+        width: 1080
+        height: 608
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aedc2ba79d8094780a38e8483596c124
+      internalID: 943069056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bkfastTiffanys_38
+      rect:
+        serializedVersion: 2
+        x: 3240
+        y: 12160
+        width: 1080
+        height: 608
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39f766f23a86b4d68b659387a75a9ad7
+      internalID: 452676022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bkfastTiffanys_39
+      rect:
+        serializedVersion: 2
+        x: 4320
+        y: 12160
+        width: 1080
+        height: 608
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29d434b915a4d414092476e697e7fbe9
+      internalID: -1415943462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bkfastTiffanys_40
+      rect:
+        serializedVersion: 2
+        x: 5400
+        y: 12160
+        width: 1080
+        height: 608
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e02de560deaca4622b57506f58224397
+      internalID: 688372172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bkfastTiffanys_41
+      rect:
+        serializedVersion: 2
+        x: 6480
+        y: 12160
+        width: 1080
+        height: 608
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a79cd94bb6f644f078134118041d224e
+      internalID: -1699478822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bkfastTiffanys_42
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 11552
+        width: 1080
+        height: 608
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f938cc4152cbb42048268dccb0cd6a3d
+      internalID: 664853881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bkfastTiffanys_43
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 11552
+        width: 1080
+        height: 608
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd6e515f34f574ea48fe78e33d7b5a4c
+      internalID: -1925641363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bkfastTiffanys_44
+      rect:
+        serializedVersion: 2
+        x: 2160
+        y: 11552
+        width: 1080
+        height: 608
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 599a04d62214943479b3041f20172c56
+      internalID: -1270150014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bkfastTiffanys_45
+      rect:
+        serializedVersion: 2
+        x: 3240
+        y: 11552
+        width: 1080
+        height: 608
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7388d75b889c74f06bdefc2397e0d538
+      internalID: 1249524068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bkfastTiffanys_46
+      rect:
+        serializedVersion: 2
+        x: 4320
+        y: 11552
+        width: 1080
+        height: 608
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0be1c4153b5cb41e4bca48ffde84a891
+      internalID: -1885355430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bkfastTiffanys_47
+      rect:
+        serializedVersion: 2
+        x: 5400
+        y: 11552
+        width: 1080
+        height: 608
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 937e0b7e7b7754325a22e395682e8783
+      internalID: -927419195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bkfastTiffanys_48
+      rect:
+        serializedVersion: 2
+        x: 6480
+        y: 11552
+        width: 1080
+        height: 608
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26658b730bec74c4caa640531e6e2179
+      internalID: 697626487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bkfastTiffanys_49
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 10944
+        width: 1080
+        height: 608
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98aeb7f3885db40b68816634d3f800db
+      internalID: 2126220270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bkfastTiffanys_50
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 10944
+        width: 1080
+        height: 608
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5081679ffeeb4c5ab9b655daa187223
+      internalID: 908506766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bkfastTiffanys_51
+      rect:
+        serializedVersion: 2
+        x: 2160
+        y: 10944
+        width: 1080
+        height: 608
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0534a17a67f9745c68fb7bf43e2ac3f2
+      internalID: -1895106709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bkfastTiffanys_52
+      rect:
+        serializedVersion: 2
+        x: 3240
+        y: 10944
+        width: 1080
+        height: 608
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9fb438dcfa1c4d89a73b9d429b752da
+      internalID: -1704250399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bkfastTiffanys_53
+      rect:
+        serializedVersion: 2
+        x: 4320
+        y: 10944
+        width: 1080
+        height: 608
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 710b4b5b45a974806872faef4c081361
+      internalID: 28407349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bkfastTiffanys_54
+      rect:
+        serializedVersion: 2
+        x: 5400
+        y: 10944
+        width: 1080
+        height: 608
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5602954e892564ef5ae65f29573288f5
+      internalID: -902198603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bkfastTiffanys_55
+      rect:
+        serializedVersion: 2
+        x: 6480
+        y: 10944
+        width: 1080
+        height: 608
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6849ca73147674e4b9cbf3ef430b7106
+      internalID: 2027917644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bkfastTiffanys_56
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 10336
+        width: 1080
+        height: 608
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0373f4bce6ee4ecaae8966e4df48fea
+      internalID: 849494406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bkfastTiffanys_57
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 10336
+        width: 1080
+        height: 608
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 225d070ddb07543fd9532bd0e0bfe6e6
+      internalID: 1371871616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bkfastTiffanys_58
+      rect:
+        serializedVersion: 2
+        x: 2160
+        y: 10336
+        width: 1080
+        height: 608
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9750d686b35f149e5a11b344d7844c44
+      internalID: -842927174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bkfastTiffanys_59
+      rect:
+        serializedVersion: 2
+        x: 3240
+        y: 10336
+        width: 1080
+        height: 608
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82ca7a8d249d4499eb006716abe089af
+      internalID: -1962365962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bkfastTiffanys_60
+      rect:
+        serializedVersion: 2
+        x: 4320
+        y: 10336
+        width: 1080
+        height: 608
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1b44a7c78b0644fba57eeb3cd5c59f9
+      internalID: -904311243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bkfastTiffanys_61
+      rect:
+        serializedVersion: 2
+        x: 5400
+        y: 10336
+        width: 1080
+        height: 608
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70e4f7a674dc140449743b17c9ee65be
+      internalID: -2075206268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bkfastTiffanys_62
+      rect:
+        serializedVersion: 2
+        x: 6480
+        y: 10336
+        width: 1080
+        height: 608
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b14d469c836a741a1a1faa72967d7b25
+      internalID: 837268923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bkfastTiffanys_63
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 9728
+        width: 1080
+        height: 608
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fef527aa295c241c8b5d201014a5df8d
+      internalID: -143250624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bkfastTiffanys_64
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 9728
+        width: 1080
+        height: 608
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87aef8aede13b496aa54cdf3c311ff7a
+      internalID: -1536324829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bkfastTiffanys_65
+      rect:
+        serializedVersion: 2
+        x: 2160
+        y: 9728
+        width: 1080
+        height: 608
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc04383830ae147f3aca50d766329e07
+      internalID: -921976671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bkfastTiffanys_66
+      rect:
+        serializedVersion: 2
+        x: 3240
+        y: 9728
+        width: 1080
+        height: 608
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2aad752634a1446fbaf93ec27f3d530
+      internalID: -839197596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bkfastTiffanys_67
+      rect:
+        serializedVersion: 2
+        x: 4320
+        y: 9728
+        width: 1080
+        height: 608
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8df56ae04eb76481d983225deb48559a
+      internalID: 499692035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bkfastTiffanys_68
+      rect:
+        serializedVersion: 2
+        x: 5400
+        y: 9728
+        width: 1080
+        height: 608
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd827cc5229f24ed89344032e7d67ad4
+      internalID: 1136351603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bkfastTiffanys_69
+      rect:
+        serializedVersion: 2
+        x: 6480
+        y: 9728
+        width: 1080
+        height: 608
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6b5df34d445342d484f3ca30e883c95
+      internalID: 817269055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bkfastTiffanys_70
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 9120
+        width: 1080
+        height: 608
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74143d407f6d24daa86cb7869a6039b4
+      internalID: -626581417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bkfastTiffanys_71
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 9120
+        width: 1080
+        height: 608
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b2c26a06c0c6419cbe255d9fce3596d
+      internalID: -489907519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bkfastTiffanys_72
+      rect:
+        serializedVersion: 2
+        x: 2160
+        y: 9120
+        width: 1080
+        height: 608
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bf98e6e282bf46a8a13f4b5fdc9a9d1
+      internalID: -6352481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bkfastTiffanys_73
+      rect:
+        serializedVersion: 2
+        x: 3240
+        y: 9120
+        width: 1080
+        height: 608
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b87b691f6c40740378e8f4bb7bd0fbb0
+      internalID: 112245949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bkfastTiffanys_74
+      rect:
+        serializedVersion: 2
+        x: 4320
+        y: 9120
+        width: 1080
+        height: 608
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 932e24f192c0d469bb0caa0a315f07e1
+      internalID: -71914584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bkfastTiffanys_75
+      rect:
+        serializedVersion: 2
+        x: 5400
+        y: 9120
+        width: 1080
+        height: 608
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 663568f0955dc43548b3bab61e56df9c
+      internalID: 1316543394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bkfastTiffanys_76
+      rect:
+        serializedVersion: 2
+        x: 6480
+        y: 9120
+        width: 1080
+        height: 608
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f34cd2d75029d4aa891e48000fcbe53f
+      internalID: -10290786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bkfastTiffanys_77
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 8512
+        width: 1080
+        height: 608
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2a4a464266a94c2e881a82c930e65c8
+      internalID: 1765552020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bkfastTiffanys_78
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 8512
+        width: 1080
+        height: 608
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe0494df629384808b7d53b70aca515d
+      internalID: 511846533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bkfastTiffanys_79
+      rect:
+        serializedVersion: 2
+        x: 2160
+        y: 8512
+        width: 1080
+        height: 608
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c1879c63af8043ea8ccbda247f61d82
+      internalID: 1552486494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bkfastTiffanys_80
+      rect:
+        serializedVersion: 2
+        x: 3240
+        y: 8512
+        width: 1080
+        height: 608
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 395364426f06847e5baddd0bac6d334c
+      internalID: 1505812242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bkfastTiffanys_81
+      rect:
+        serializedVersion: 2
+        x: 4320
+        y: 8512
+        width: 1080
+        height: 608
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 257300b4075c54d7b9232a1dc4968742
+      internalID: -402673479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bkfastTiffanys_82
+      rect:
+        serializedVersion: 2
+        x: 5400
+        y: 8512
+        width: 1080
+        height: 608
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9c00538c5e4f4bc3a629658d91e9edd
+      internalID: 1076133801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bkfastTiffanys_83
+      rect:
+        serializedVersion: 2
+        x: 6480
+        y: 8512
+        width: 1080
+        height: 608
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b576b9456501945a59c5a873e6b09299
+      internalID: -1344495026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bkfastTiffanys_84
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 7904
+        width: 1080
+        height: 608
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 679a7b5af5a61433a8cb7f1357a39aa2
+      internalID: -890719218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bkfastTiffanys_85
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 7904
+        width: 1080
+        height: 608
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4dae924169d77424298f654d7936d570
+      internalID: 1402463439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bkfastTiffanys_86
+      rect:
+        serializedVersion: 2
+        x: 2160
+        y: 7904
+        width: 1080
+        height: 608
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 874cb6e08306c46e8ab9cb463480131a
+      internalID: -1506930645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bkfastTiffanys_87
+      rect:
+        serializedVersion: 2
+        x: 3240
+        y: 7904
+        width: 1080
+        height: 608
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24b7daf588d9f4f9b8f384e0e94c9ac4
+      internalID: -527324749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bkfastTiffanys_88
+      rect:
+        serializedVersion: 2
+        x: 4320
+        y: 7904
+        width: 1080
+        height: 608
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54a38d3a7f58645ae974f9c2e502ab47
+      internalID: -290994882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bkfastTiffanys_89
+      rect:
+        serializedVersion: 2
+        x: 5400
+        y: 7904
+        width: 1080
+        height: 608
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8a749539be0f4812b11a1221c1e2979
+      internalID: 1399209787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bkfastTiffanys_90
+      rect:
+        serializedVersion: 2
+        x: 6480
+        y: 7904
+        width: 1080
+        height: 608
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1eb0862ad0c434324a1c4554c25b28a4
+      internalID: 2097180632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bkfastTiffanys_91
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 7296
+        width: 1080
+        height: 608
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed3dad90f6e314535b2e156922037cdb
+      internalID: -1267284094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bkfastTiffanys_92
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 7296
+        width: 1080
+        height: 608
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58282aa07cec945cba8ae1963eeae0e4
+      internalID: 1918239554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bkfastTiffanys_93
+      rect:
+        serializedVersion: 2
+        x: 2160
+        y: 7296
+        width: 1080
+        height: 608
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df769db6d32f34d958467051dfd1d8c9
+      internalID: 1641361696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bkfastTiffanys_94
+      rect:
+        serializedVersion: 2
+        x: 3240
+        y: 7296
+        width: 1080
+        height: 608
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b02ce35a975e47eeb01f882bf2a12ed
+      internalID: 236235174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bkfastTiffanys_95
+      rect:
+        serializedVersion: 2
+        x: 4320
+        y: 7296
+        width: 1080
+        height: 608
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b45e7b0d24c24b959458936c577dd5e
+      internalID: 757353672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bkfastTiffanys_96
+      rect:
+        serializedVersion: 2
+        x: 5400
+        y: 7296
+        width: 1080
+        height: 608
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c48037531273b46198a1993e1c101242
+      internalID: -2095647919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bkfastTiffanys_97
+      rect:
+        serializedVersion: 2
+        x: 6480
+        y: 7296
+        width: 1080
+        height: 608
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 715bdffd50c61471cb45650b181ca092
+      internalID: 1481531619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bkfastTiffanys_98
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 6688
+        width: 1080
+        height: 608
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23d8d107f292c4a9ea8431545a8134ab
+      internalID: -812231642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bkfastTiffanys_99
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 6688
+        width: 1080
+        height: 608
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c59e8e31d10642b7a359b0bcdd1d641
+      internalID: 1356246342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bkfastTiffanys_100
+      rect:
+        serializedVersion: 2
+        x: 2160
+        y: 6688
+        width: 1080
+        height: 608
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7a7f2bd667374f41a01f67c0114e680
+      internalID: -304857222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bkfastTiffanys_101
+      rect:
+        serializedVersion: 2
+        x: 3240
+        y: 6688
+        width: 1080
+        height: 608
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b1ebf9b7de264a6b8fa9ab2daddeec6
+      internalID: -291735146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bkfastTiffanys_102
+      rect:
+        serializedVersion: 2
+        x: 4320
+        y: 6688
+        width: 1080
+        height: 608
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05e0579ea3d6049159b8905be6231bc7
+      internalID: 2099059877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bkfastTiffanys_103
+      rect:
+        serializedVersion: 2
+        x: 5400
+        y: 6688
+        width: 1080
+        height: 608
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7625265a73ce84cf693e9a40c8b95f17
+      internalID: 446873742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bkfastTiffanys_104
+      rect:
+        serializedVersion: 2
+        x: 6480
+        y: 6688
+        width: 1080
+        height: 608
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ce4ca258368f45e88502069f7399e01
+      internalID: -454079569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bkfastTiffanys_105
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 6080
+        width: 1080
+        height: 608
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 720c7ee450b5549c7bfede64e18114ae
+      internalID: -680068861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bkfastTiffanys_106
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 6080
+        width: 1080
+        height: 608
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e1e374b9245e43a48424f507cf146f8
+      internalID: 481994002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bkfastTiffanys_107
+      rect:
+        serializedVersion: 2
+        x: 2160
+        y: 6080
+        width: 1080
+        height: 608
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de7a3f8abb4a344a48cdbf720ba8262d
+      internalID: 648978950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bkfastTiffanys_108
+      rect:
+        serializedVersion: 2
+        x: 3240
+        y: 6080
+        width: 1080
+        height: 608
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da844f16eea974e31843052f2d20ac45
+      internalID: 1593916384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bkfastTiffanys_109
+      rect:
+        serializedVersion: 2
+        x: 4320
+        y: 6080
+        width: 1080
+        height: 608
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a4bc75015975420281ac6c4c74c942c
+      internalID: 1959969665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bkfastTiffanys_110
+      rect:
+        serializedVersion: 2
+        x: 5400
+        y: 6080
+        width: 1080
+        height: 608
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe1ba19c7d13e49db98b41f877b7ce07
+      internalID: 489745028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bkfastTiffanys_111
+      rect:
+        serializedVersion: 2
+        x: 6480
+        y: 6080
+        width: 1080
+        height: 608
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e05e62544bbfb45d9b758adb384f9951
+      internalID: 201592644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bkfastTiffanys_112
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5472
+        width: 1080
+        height: 608
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57c860b23c2044d26965d9af86a22da9
+      internalID: -1987723132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bkfastTiffanys_113
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 5472
+        width: 1080
+        height: 608
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc8fd57c4540c4bc1948731d8fc13a4c
+      internalID: 59942621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bkfastTiffanys_114
+      rect:
+        serializedVersion: 2
+        x: 2160
+        y: 5472
+        width: 1080
+        height: 608
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eda48b635f88c4a32adeeec8d2803c10
+      internalID: -1303858148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bkfastTiffanys_115
+      rect:
+        serializedVersion: 2
+        x: 3240
+        y: 5472
+        width: 1080
+        height: 608
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99ef0e974407348439c5837fb7c54f42
+      internalID: 730787581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bkfastTiffanys_116
+      rect:
+        serializedVersion: 2
+        x: 4320
+        y: 5472
+        width: 1080
+        height: 608
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f314ab50aff904817ad4cb673cf0ec4c
+      internalID: 868525737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bkfastTiffanys_117
+      rect:
+        serializedVersion: 2
+        x: 5400
+        y: 5472
+        width: 1080
+        height: 608
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c1597b30782047779fad50fd980e607
+      internalID: -1659078228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bkfastTiffanys_118
+      rect:
+        serializedVersion: 2
+        x: 6480
+        y: 5472
+        width: 1080
+        height: 608
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e00f668b7a16343d28857ce0ba92f7bc
+      internalID: -547504520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bkfastTiffanys_119
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4864
+        width: 1080
+        height: 608
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c029bd8738374d33b27a544b47e5d11
+      internalID: 1108882658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bkfastTiffanys_120
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 4864
+        width: 1080
+        height: 608
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f0480cb3ad6645e7a4ec4323231893d
+      internalID: 1502254070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bkfastTiffanys_121
+      rect:
+        serializedVersion: 2
+        x: 2160
+        y: 4864
+        width: 1080
+        height: 608
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77a2ad0db63584c6e999c5f1468a89f8
+      internalID: -727574910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bkfastTiffanys_122
+      rect:
+        serializedVersion: 2
+        x: 3240
+        y: 4864
+        width: 1080
+        height: 608
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e2f7ad240b2d40859aa3e901ac294be
+      internalID: 776121697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bkfastTiffanys_123
+      rect:
+        serializedVersion: 2
+        x: 4320
+        y: 4864
+        width: 1080
+        height: 608
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4053ca337db48418d8e2e21d3c785053
+      internalID: -1926039615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bkfastTiffanys_124
+      rect:
+        serializedVersion: 2
+        x: 5400
+        y: 4864
+        width: 1080
+        height: 608
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68def1e801bf3483480f7ad35f9ebe1b
+      internalID: -640473553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bkfastTiffanys_125
+      rect:
+        serializedVersion: 2
+        x: 6480
+        y: 4864
+        width: 1080
+        height: 608
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1d20ae8b222e43e691dcc1f85755347
+      internalID: 1730003279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bkfastTiffanys_126
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4256
+        width: 1080
+        height: 608
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5dea44ef3b6264cc3842437789eb0461
+      internalID: -1656236867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bkfastTiffanys_127
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 4256
+        width: 1080
+        height: 608
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e0f7f56fde2340b9816604a53c3d6a4
+      internalID: 1846906514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bkfastTiffanys_128
+      rect:
+        serializedVersion: 2
+        x: 2160
+        y: 4256
+        width: 1080
+        height: 608
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d8f789b4f83a49b4b9bb594ed5a1b96
+      internalID: -1885517760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bkfastTiffanys_129
+      rect:
+        serializedVersion: 2
+        x: 3240
+        y: 4256
+        width: 1080
+        height: 608
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 896aa6e56412b47b1a60829ec21f3254
+      internalID: 1113757751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bkfastTiffanys_130
+      rect:
+        serializedVersion: 2
+        x: 4320
+        y: 4256
+        width: 1080
+        height: 608
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e530fdce64a1f46aebd4573ca55dba64
+      internalID: 2103745660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bkfastTiffanys_131
+      rect:
+        serializedVersion: 2
+        x: 5400
+        y: 4256
+        width: 1080
+        height: 608
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2b33900ae7c740b280f901a56539222
+      internalID: 1360777188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bkfastTiffanys_132
+      rect:
+        serializedVersion: 2
+        x: 6480
+        y: 4256
+        width: 1080
+        height: 608
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da300daf264ea43f5ad121e20ef4f130
+      internalID: 1307390050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bkfastTiffanys_133
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3648
+        width: 1080
+        height: 608
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9907ca41e73904f5a84279b66942f6d7
+      internalID: 2094631015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bkfastTiffanys_134
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 3648
+        width: 1080
+        height: 608
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4aebb8fcbb89e4de9b8fddc37b30bd76
+      internalID: 983954917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bkfastTiffanys_135
+      rect:
+        serializedVersion: 2
+        x: 2160
+        y: 3648
+        width: 1080
+        height: 608
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17c80175cc3984dbeb0ad5650895c914
+      internalID: 112866343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bkfastTiffanys_136
+      rect:
+        serializedVersion: 2
+        x: 3240
+        y: 3648
+        width: 1080
+        height: 608
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f22695eb61ea14c3da94d9e4de7b4efa
+      internalID: 977929025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bkfastTiffanys_137
+      rect:
+        serializedVersion: 2
+        x: 4320
+        y: 3648
+        width: 1080
+        height: 608
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cfdf33e3878a474db1c42cf88448e09
+      internalID: 171315485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bkfastTiffanys_138
+      rect:
+        serializedVersion: 2
+        x: 5400
+        y: 3648
+        width: 1080
+        height: 608
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d020811dd596477fbd47b14d7daee70
+      internalID: -324856208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bkfastTiffanys_139
+      rect:
+        serializedVersion: 2
+        x: 6480
+        y: 3648
+        width: 1080
+        height: 608
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6f16fc0324f04480b3be478de539ab7
+      internalID: 1178522208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bkfastTiffanys_140
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3040
+        width: 1080
+        height: 608
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df503c485eb57473589db5c7430caa7b
+      internalID: -705359423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bkfastTiffanys_141
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 3040
+        width: 1080
+        height: 608
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e95a49113ad38410aa9c63e7cbc0f45a
+      internalID: 1144611827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bkfastTiffanys_142
+      rect:
+        serializedVersion: 2
+        x: 2160
+        y: 3040
+        width: 1080
+        height: 608
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92e5a8f9d91f4438da2e3fc3bc5e6b5c
+      internalID: 280919626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bkfastTiffanys_143
+      rect:
+        serializedVersion: 2
+        x: 3240
+        y: 3040
+        width: 1080
+        height: 608
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed655d3e65f654163b49773a8ada6fe2
+      internalID: 1124148015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bkfastTiffanys_144
+      rect:
+        serializedVersion: 2
+        x: 4320
+        y: 3040
+        width: 1080
+        height: 608
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ab03fdd0f464483a8969bc148a226cf
+      internalID: -1835687223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bkfastTiffanys_145
+      rect:
+        serializedVersion: 2
+        x: 5400
+        y: 3040
+        width: 1080
+        height: 608
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ea29495ad1334ed18646fd0999172b9
+      internalID: -1304819404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bkfastTiffanys_146
+      rect:
+        serializedVersion: 2
+        x: 6480
+        y: 3040
+        width: 1080
+        height: 608
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98b62d0ef1a1f479e8da8cf0eff5252f
+      internalID: -891781630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bkfastTiffanys_147
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2432
+        width: 1080
+        height: 608
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e4b147f834c549c1a955959d8778a33
+      internalID: -1922252464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bkfastTiffanys_148
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 2432
+        width: 1080
+        height: 608
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1e8494e459bc4747a59cc9509483ad8
+      internalID: 1666877369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bkfastTiffanys_149
+      rect:
+        serializedVersion: 2
+        x: 2160
+        y: 2432
+        width: 1080
+        height: 608
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 040541afa17ed4600ad10bd087e52e23
+      internalID: 736979442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bkfastTiffanys_150
+      rect:
+        serializedVersion: 2
+        x: 3240
+        y: 2432
+        width: 1080
+        height: 608
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10ffcb24c0a644062bb96feb4c63cff2
+      internalID: -857255945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bkfastTiffanys_151
+      rect:
+        serializedVersion: 2
+        x: 4320
+        y: 2432
+        width: 1080
+        height: 608
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70499d80d1bf144b59ce12189af87b01
+      internalID: -497870858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bkfastTiffanys_152
+      rect:
+        serializedVersion: 2
+        x: 5400
+        y: 2432
+        width: 1080
+        height: 608
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fed93655255e047738496de9bce4c736
+      internalID: 169139693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bkfastTiffanys_153
+      rect:
+        serializedVersion: 2
+        x: 6480
+        y: 2432
+        width: 1080
+        height: 608
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75a828d24db0341458651d55ee79a558
+      internalID: -1993011632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bkfastTiffanys_154
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1824
+        width: 1080
+        height: 608
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 282e9e6d3dd0c44deb033e6733500c36
+      internalID: 890357692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bkfastTiffanys_155
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 1824
+        width: 1080
+        height: 608
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c82f1facd0a374fbaa13fd9715c39c22
+      internalID: -2019776166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bkfastTiffanys_156
+      rect:
+        serializedVersion: 2
+        x: 2160
+        y: 1824
+        width: 1080
+        height: 608
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2043ead62b4b431c9a9f5a9122f45a7
+      internalID: -1472083683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bkfastTiffanys_157
+      rect:
+        serializedVersion: 2
+        x: 3240
+        y: 1824
+        width: 1080
+        height: 608
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a85c7e1beadba4bb3b9cd2d874c57132
+      internalID: 387916804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bkfastTiffanys_158
+      rect:
+        serializedVersion: 2
+        x: 4320
+        y: 1824
+        width: 1080
+        height: 608
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68ea546aa9a0f403bb48bbc757a09444
+      internalID: 682816006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bkfastTiffanys_159
+      rect:
+        serializedVersion: 2
+        x: 5400
+        y: 1824
+        width: 1080
+        height: 608
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6935e60660a854e17b4ec7a556d5f00c
+      internalID: 1480167974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bkfastTiffanys_160
+      rect:
+        serializedVersion: 2
+        x: 6480
+        y: 1824
+        width: 1080
+        height: 608
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce2145d56e5624750aef7fad9652c13a
+      internalID: -1025346013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bkfastTiffanys_161
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1216
+        width: 1080
+        height: 608
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8b83dcdfffb04495b286ba619abab0d
+      internalID: -304773516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bkfastTiffanys_162
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 1216
+        width: 1080
+        height: 608
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6fbe60a0367041a1b9f7219220af2da
+      internalID: -1083682842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bkfastTiffanys_163
+      rect:
+        serializedVersion: 2
+        x: 2160
+        y: 1216
+        width: 1080
+        height: 608
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2d46bf12aed54bb2a742a1eca53e59e
+      internalID: 1926125967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bkfastTiffanys_164
+      rect:
+        serializedVersion: 2
+        x: 3240
+        y: 1216
+        width: 1080
+        height: 608
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bb0f8638adb34d61b4b83d1fea5de54
+      internalID: 39827445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bkfastTiffanys_165
+      rect:
+        serializedVersion: 2
+        x: 4320
+        y: 1216
+        width: 1080
+        height: 608
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33b726e96b5e44e9aa013799d33383c7
+      internalID: -1789718042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bkfastTiffanys_166
+      rect:
+        serializedVersion: 2
+        x: 5400
+        y: 1216
+        width: 1080
+        height: 608
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eef29e7a0356343c58a68fa4b68e2032
+      internalID: 974272132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bkfastTiffanys_167
+      rect:
+        serializedVersion: 2
+        x: 6480
+        y: 1216
+        width: 1080
+        height: 608
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 419bd742f52074b16b4edccf3b7d0856
+      internalID: 1520397990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bkfastTiffanys_168
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 608
+        width: 1080
+        height: 608
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42cf467fa7f814e8f83e137540717830
+      internalID: 1148574465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bkfastTiffanys_169
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 608
+        width: 1080
+        height: 608
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8fabe0ca6c8848b48706f0355cbabeb
+      internalID: 1978192308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bkfastTiffanys_170
+      rect:
+        serializedVersion: 2
+        x: 2160
+        y: 608
+        width: 1080
+        height: 608
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2da54aecf54c4cdf819d0198a986602
+      internalID: -59133141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bkfastTiffanys_171
+      rect:
+        serializedVersion: 2
+        x: 3240
+        y: 608
+        width: 1080
+        height: 608
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a0273cd1923f479fbdc5e946df08ee2
+      internalID: 1029347733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bkfastTiffanys_172
+      rect:
+        serializedVersion: 2
+        x: 4320
+        y: 608
+        width: 1080
+        height: 608
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26b50f04037d04dedaeb93159b90970f
+      internalID: -1818057958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bkfastTiffanys_173
+      rect:
+        serializedVersion: 2
+        x: 5400
+        y: 608
+        width: 1080
+        height: 608
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd943747532cd484ca9d09dfde28eb15
+      internalID: 1613953309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bkfastTiffanys_174
+      rect:
+        serializedVersion: 2
+        x: 6480
+        y: 608
+        width: 1080
+        height: 608
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bfb88866c9324cfdbf63d193ab46017
+      internalID: -993980850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bkfastTiffanys_175
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1080
+        height: 608
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcf11e0a76d644aceac7b2bc73638176
+      internalID: -1405561201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bkfastTiffanys_176
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 0
+        width: 1080
+        height: 608
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9f1c2a92fb2849069ced1442d5d6eef
+      internalID: 1980684055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bkfastTiffanys_177
+      rect:
+        serializedVersion: 2
+        x: 2160
+        y: 0
+        width: 1080
+        height: 608
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61c541ecf9f8c49099720eed725fad39
+      internalID: -726066525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bkfastTiffanys_178
+      rect:
+        serializedVersion: 2
+        x: 3240
+        y: 0
+        width: 1080
+        height: 608
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0816b0edcf15489889b4be1193a66d2
+      internalID: 1953052091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bkfastTiffanys_179
+      rect:
+        serializedVersion: 2
+        x: 4320
+        y: 0
+        width: 1080
+        height: 608
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e93902bf3c5748c19237854853aa50e
+      internalID: -643049218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bkfastTiffanys_180
+      rect:
+        serializedVersion: 2
+        x: 5400
+        y: 0
+        width: 1080
+        height: 608
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19b47ca1e26eb4c568642360462943f5
+      internalID: 188546809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bkfastTiffanys_181
+      rect:
+        serializedVersion: 2
+        x: 6480
+        y: 0
+        width: 1080
+        height: 608
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6cd6c4162a9a487d82c9878728ef9ae
+      internalID: 1078163377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      bkfastTiffanys_0: 843858546
+      bkfastTiffanys_1: 112407150
+      bkfastTiffanys_10: -217844349
+      bkfastTiffanys_100: -304857222
+      bkfastTiffanys_101: -291735146
+      bkfastTiffanys_102: 2099059877
+      bkfastTiffanys_103: 446873742
+      bkfastTiffanys_104: -454079569
+      bkfastTiffanys_105: -680068861
+      bkfastTiffanys_106: 481994002
+      bkfastTiffanys_107: 648978950
+      bkfastTiffanys_108: 1593916384
+      bkfastTiffanys_109: 1959969665
+      bkfastTiffanys_11: 1778002149
+      bkfastTiffanys_110: 489745028
+      bkfastTiffanys_111: 201592644
+      bkfastTiffanys_112: -1987723132
+      bkfastTiffanys_113: 59942621
+      bkfastTiffanys_114: -1303858148
+      bkfastTiffanys_115: 730787581
+      bkfastTiffanys_116: 868525737
+      bkfastTiffanys_117: -1659078228
+      bkfastTiffanys_118: -547504520
+      bkfastTiffanys_119: 1108882658
+      bkfastTiffanys_12: -483287835
+      bkfastTiffanys_120: 1502254070
+      bkfastTiffanys_121: -727574910
+      bkfastTiffanys_122: 776121697
+      bkfastTiffanys_123: -1926039615
+      bkfastTiffanys_124: -640473553
+      bkfastTiffanys_125: 1730003279
+      bkfastTiffanys_126: -1656236867
+      bkfastTiffanys_127: 1846906514
+      bkfastTiffanys_128: -1885517760
+      bkfastTiffanys_129: 1113757751
+      bkfastTiffanys_13: 1328147563
+      bkfastTiffanys_130: 2103745660
+      bkfastTiffanys_131: 1360777188
+      bkfastTiffanys_132: 1307390050
+      bkfastTiffanys_133: 2094631015
+      bkfastTiffanys_134: 983954917
+      bkfastTiffanys_135: 112866343
+      bkfastTiffanys_136: 977929025
+      bkfastTiffanys_137: 171315485
+      bkfastTiffanys_138: -324856208
+      bkfastTiffanys_139: 1178522208
+      bkfastTiffanys_14: -1993976900
+      bkfastTiffanys_140: -705359423
+      bkfastTiffanys_141: 1144611827
+      bkfastTiffanys_142: 280919626
+      bkfastTiffanys_143: 1124148015
+      bkfastTiffanys_144: -1835687223
+      bkfastTiffanys_145: -1304819404
+      bkfastTiffanys_146: -891781630
+      bkfastTiffanys_147: -1922252464
+      bkfastTiffanys_148: 1666877369
+      bkfastTiffanys_149: 736979442
+      bkfastTiffanys_15: 2112949348
+      bkfastTiffanys_150: -857255945
+      bkfastTiffanys_151: -497870858
+      bkfastTiffanys_152: 169139693
+      bkfastTiffanys_153: -1993011632
+      bkfastTiffanys_154: 890357692
+      bkfastTiffanys_155: -2019776166
+      bkfastTiffanys_156: -1472083683
+      bkfastTiffanys_157: 387916804
+      bkfastTiffanys_158: 682816006
+      bkfastTiffanys_159: 1480167974
+      bkfastTiffanys_16: -229512722
+      bkfastTiffanys_160: -1025346013
+      bkfastTiffanys_161: -304773516
+      bkfastTiffanys_162: -1083682842
+      bkfastTiffanys_163: 1926125967
+      bkfastTiffanys_164: 39827445
+      bkfastTiffanys_165: -1789718042
+      bkfastTiffanys_166: 974272132
+      bkfastTiffanys_167: 1520397990
+      bkfastTiffanys_168: 1148574465
+      bkfastTiffanys_169: 1978192308
+      bkfastTiffanys_17: 336852925
+      bkfastTiffanys_170: -59133141
+      bkfastTiffanys_171: 1029347733
+      bkfastTiffanys_172: -1818057958
+      bkfastTiffanys_173: 1613953309
+      bkfastTiffanys_174: -993980850
+      bkfastTiffanys_175: -1405561201
+      bkfastTiffanys_176: 1980684055
+      bkfastTiffanys_177: -726066525
+      bkfastTiffanys_178: 1953052091
+      bkfastTiffanys_179: -643049218
+      bkfastTiffanys_18: 795066455
+      bkfastTiffanys_180: 188546809
+      bkfastTiffanys_181: 1078163377
+      bkfastTiffanys_19: -1002077489
+      bkfastTiffanys_2: -1986657446
+      bkfastTiffanys_20: -133234599
+      bkfastTiffanys_21: 1722904075
+      bkfastTiffanys_22: 519054612
+      bkfastTiffanys_23: 1526195143
+      bkfastTiffanys_24: 1594449375
+      bkfastTiffanys_25: -914268733
+      bkfastTiffanys_26: 1195461238
+      bkfastTiffanys_27: -1794294500
+      bkfastTiffanys_28: -2025432236
+      bkfastTiffanys_29: -1600620873
+      bkfastTiffanys_3: -1559107216
+      bkfastTiffanys_30: -847911670
+      bkfastTiffanys_31: -1215395083
+      bkfastTiffanys_32: -1456716163
+      bkfastTiffanys_33: -1163560078
+      bkfastTiffanys_34: -1679355400
+      bkfastTiffanys_35: -68422237
+      bkfastTiffanys_36: -359483404
+      bkfastTiffanys_37: 943069056
+      bkfastTiffanys_38: 452676022
+      bkfastTiffanys_39: -1415943462
+      bkfastTiffanys_4: -1910292613
+      bkfastTiffanys_40: 688372172
+      bkfastTiffanys_41: -1699478822
+      bkfastTiffanys_42: 664853881
+      bkfastTiffanys_43: -1925641363
+      bkfastTiffanys_44: -1270150014
+      bkfastTiffanys_45: 1249524068
+      bkfastTiffanys_46: -1885355430
+      bkfastTiffanys_47: -927419195
+      bkfastTiffanys_48: 697626487
+      bkfastTiffanys_49: 2126220270
+      bkfastTiffanys_5: -809218277
+      bkfastTiffanys_50: 908506766
+      bkfastTiffanys_51: -1895106709
+      bkfastTiffanys_52: -1704250399
+      bkfastTiffanys_53: 28407349
+      bkfastTiffanys_54: -902198603
+      bkfastTiffanys_55: 2027917644
+      bkfastTiffanys_56: 849494406
+      bkfastTiffanys_57: 1371871616
+      bkfastTiffanys_58: -842927174
+      bkfastTiffanys_59: -1962365962
+      bkfastTiffanys_6: 1367656607
+      bkfastTiffanys_60: -904311243
+      bkfastTiffanys_61: -2075206268
+      bkfastTiffanys_62: 837268923
+      bkfastTiffanys_63: -143250624
+      bkfastTiffanys_64: -1536324829
+      bkfastTiffanys_65: -921976671
+      bkfastTiffanys_66: -839197596
+      bkfastTiffanys_67: 499692035
+      bkfastTiffanys_68: 1136351603
+      bkfastTiffanys_69: 817269055
+      bkfastTiffanys_7: 630739141
+      bkfastTiffanys_70: -626581417
+      bkfastTiffanys_71: -489907519
+      bkfastTiffanys_72: -6352481
+      bkfastTiffanys_73: 112245949
+      bkfastTiffanys_74: -71914584
+      bkfastTiffanys_75: 1316543394
+      bkfastTiffanys_76: -10290786
+      bkfastTiffanys_77: 1765552020
+      bkfastTiffanys_78: 511846533
+      bkfastTiffanys_79: 1552486494
+      bkfastTiffanys_8: 2024621045
+      bkfastTiffanys_80: 1505812242
+      bkfastTiffanys_81: -402673479
+      bkfastTiffanys_82: 1076133801
+      bkfastTiffanys_83: -1344495026
+      bkfastTiffanys_84: -890719218
+      bkfastTiffanys_85: 1402463439
+      bkfastTiffanys_86: -1506930645
+      bkfastTiffanys_87: -527324749
+      bkfastTiffanys_88: -290994882
+      bkfastTiffanys_89: 1399209787
+      bkfastTiffanys_9: -411907031
+      bkfastTiffanys_90: 2097180632
+      bkfastTiffanys_91: -1267284094
+      bkfastTiffanys_92: 1918239554
+      bkfastTiffanys_93: 1641361696
+      bkfastTiffanys_94: 236235174
+      bkfastTiffanys_95: 757353672
+      bkfastTiffanys_96: -2095647919
+      bkfastTiffanys_97: 1481531619
+      bkfastTiffanys_98: -812231642
+      bkfastTiffanys_99: 1356246342
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
