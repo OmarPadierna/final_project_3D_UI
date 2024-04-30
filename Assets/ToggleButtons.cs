@@ -1,6 +1,8 @@
 using UnityEngine;
 using UnityEngine.InputSystem;
 using UnityEngine.XR.Interaction.Toolkit.UI;
+using UnityEngine.UI;
+using TMPro;
 
 public class ToggleButtons : MonoBehaviour
 {
@@ -14,13 +16,17 @@ public class ToggleButtons : MonoBehaviour
     public GameObject videoPanelObject;
     public LazyFollow lazyFollowComponent;
 
+    public TextMeshProUGUI minimapAffordanceText;
+    public TextMeshProUGUI helpPanelAffordanceText;
+    public TextMeshProUGUI lazyFollowAffordanceText;
+    public TextMeshProUGUI videoPanelAffordanceText;
+
     private void OnEnable()
     {
         yButtonActionReference.action.performed += OnYButtonPressed;
         bButtonActionReference.action.performed += OnBButtonPressed;
         aButtonActionReference.action.performed += OnAButtonPressed;
         xButtonActionReference.action.performed += OnXButtonPressed;
-
 
         yButtonActionReference.action.Enable();
         bButtonActionReference.action.Enable();
@@ -30,7 +36,6 @@ public class ToggleButtons : MonoBehaviour
 
     private void OnDisable()
     {
-        // Unsubscribe from the button actions
         yButtonActionReference.action.performed -= OnYButtonPressed;
         bButtonActionReference.action.performed -= OnBButtonPressed;
         aButtonActionReference.action.performed -= OnAButtonPressed;
@@ -44,14 +49,13 @@ public class ToggleButtons : MonoBehaviour
 
     private void OnYButtonPressed(InputAction.CallbackContext context)
     {
-        // Toggle the active state of the minimap object
         minimapObject.SetActive(!minimapObject.activeSelf);
+        minimapAffordanceText.text = minimapObject.activeSelf ? "Minimap (Visible)" : "Minimap (Hidden)";
         Debug.Log($"Minimap active state toggled. New state: {minimapObject.activeSelf}");
     }
 
     private void OnBButtonPressed(InputAction.CallbackContext context)
     {
-        // Toggle the position follow mode of the LazyFollow component
         if (lazyFollowComponent != null)
         {
             lazyFollowComponent.positionFollowMode = 
@@ -59,14 +63,17 @@ public class ToggleButtons : MonoBehaviour
                 ? LazyFollow.PositionFollowMode.None
                 : LazyFollow.PositionFollowMode.Follow;
 
-            Debug.Log($"LazyFollow position follow mode toggled. New mode: {lazyFollowComponent.positionFollowMode}");
-
             lazyFollowComponent.rotationFollowMode = 
                 (lazyFollowComponent.rotationFollowMode == LazyFollow.RotationFollowMode.LookAtWithWorldUp)
                 ? LazyFollow.RotationFollowMode.None
                 : LazyFollow.RotationFollowMode.LookAtWithWorldUp;
 
-            Debug.Log($"LazyFollow rotation follow mode toggled. New mode: {lazyFollowComponent.rotationFollowMode}");
+            lazyFollowAffordanceText.text = 
+                (lazyFollowComponent.positionFollowMode == LazyFollow.PositionFollowMode.Follow)
+                ? "Video Panel Follow Mode (Enabled)"
+                : "Video Panel Follow Mode (Disabled)";
+
+            Debug.Log($"LazyFollow modes toggled. New position mode: {lazyFollowComponent.positionFollowMode}, New rotation mode: {lazyFollowComponent.rotationFollowMode}");
         }
         else
         {
@@ -76,15 +83,15 @@ public class ToggleButtons : MonoBehaviour
 
     private void OnAButtonPressed(InputAction.CallbackContext context)
     {
-        // Toggle the active state of the help panel object
         videoPanelObject.SetActive(!videoPanelObject.activeSelf);
+        videoPanelAffordanceText.text = videoPanelObject.activeSelf ? "Video Panel (Visible)" : "Video Panel (Hidden)";
         Debug.Log($"Video panel active state toggled. New state: {videoPanelObject.activeSelf}");
     }
 
     private void OnXButtonPressed(InputAction.CallbackContext context)
     {
-        // Toggle the active state of the help panel object
         helpPanelObject.SetActive(!helpPanelObject.activeSelf);
+        helpPanelAffordanceText.text = helpPanelObject.activeSelf ? "Help Panel (Visible)" : "Help Panel (Hidden)";
         Debug.Log($"Help panel active state toggled. New state: {helpPanelObject.activeSelf}");
     }
 }
