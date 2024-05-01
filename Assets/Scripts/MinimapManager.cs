@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class MinimapManager : MonoBehaviour
@@ -10,8 +11,11 @@ public class MinimapManager : MonoBehaviour
     public Transform environmentOrigin;
     [SerializeField]
     public Transform playerReferenceTransform;
+
+    public List<Transform> videoMarkers;
     [SerializeField]
     public Transform playerTransform;
+    public GameObject environment;
 
     // Update is called once per frame
     void Update()
@@ -25,5 +29,18 @@ public class MinimapManager : MonoBehaviour
         //Update roation (i.e. where the user is looking at)
         Quaternion relativeRotation = Quaternion.Inverse(environmentOrigin.rotation) * playerTransform.rotation;
         playerReferenceTransform.rotation = minimapOrigin.rotation * relativeRotation;
+
+        int[] playerToCoordinateIndex = environment.GetComponent<MovieManager>().playerToCoordinateIndex;
+        for (int i = 0; i < playerToCoordinateIndex.Length; i++)
+        {
+            int playerind = playerToCoordinateIndex[i];
+            if (playerind == -1) {
+                videoMarkers[i].gameObject.SetActive(false);
+            } else {
+                videoMarkers[i].gameObject.SetActive(true);
+                Vector3 videoenv = environmentOrigin.InverseTransformPoint(environment.GetComponent<MovieManager>().videoPlayers[playerToCoordinateIndex[i]].transform.parent.transform.parent.transform.parent.position); 
+                videoMarkers[i].position = minimapOrigin.TransformPoint(videoenv);
+            }
+        }
     }
 }
