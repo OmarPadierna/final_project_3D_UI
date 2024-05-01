@@ -1,7 +1,8 @@
+using System.Collections.Generic;
+using UnityEngine.Video;
 using UnityEngine;
 using UnityEngine.InputSystem;
 using UnityEngine.XR.Interaction.Toolkit.UI;
-using UnityEngine.UI;
 using TMPro;
 
 public class ToggleButtons : MonoBehaviour
@@ -13,14 +14,17 @@ public class ToggleButtons : MonoBehaviour
 
     public GameObject minimapObject;
     public GameObject helpPanelObject;
-    public GameObject videoPanelObject;
-    public LazyFollow lazyFollowComponent;
+    public GameObject environment;
+    public List<VideoPlayer> videoPlayers;
 
     public TextMeshProUGUI minimapAffordanceText;
     public TextMeshProUGUI helpPanelAffordanceText;
     public TextMeshProUGUI lazyFollowAffordanceText;
-    public TextMeshProUGUI videoPanelAffordanceText;
 
+    void Start()
+    {
+        videoPlayers = environment.GetComponent<MovieManager>().videoPlayers;
+    }
     private void OnEnable()
     {
         yButtonActionReference.action.performed += OnYButtonPressed;
@@ -56,12 +60,9 @@ public class ToggleButtons : MonoBehaviour
 
     private void OnBButtonPressed(InputAction.CallbackContext context)
     {
-        if (lazyFollowComponent != null)
+        for (int i = 0; i < videoPlayers.Count; i++)
         {
-            lazyFollowComponent.positionFollowMode = 
-                (lazyFollowComponent.positionFollowMode == LazyFollow.PositionFollowMode.Follow)
-                ? LazyFollow.PositionFollowMode.None
-                : LazyFollow.PositionFollowMode.Follow;
+            LazyFollow lazyFollowComponent = videoPlayers[i].transform.parent.transform.parent.transform.parent.GetComponent<LazyFollow>();
 
             lazyFollowComponent.rotationFollowMode = 
                 (lazyFollowComponent.rotationFollowMode == LazyFollow.RotationFollowMode.LookAtWithWorldUp)
@@ -73,19 +74,18 @@ public class ToggleButtons : MonoBehaviour
                 ? "Video Panel Follow Mode (Enabled)"
                 : "Video Panel Follow Mode (Disabled)";
 
-            Debug.Log($"LazyFollow modes toggled. New position mode: {lazyFollowComponent.positionFollowMode}, New rotation mode: {lazyFollowComponent.rotationFollowMode}");
-        }
-        else
-        {
-            Debug.LogError("LazyFollow component not found on the GameObject.");
+            Debug.Log($"LazyFollow modes toggled. New rotation mode: {lazyFollowComponent.rotationFollowMode}");
         }
     }
 
     private void OnAButtonPressed(InputAction.CallbackContext context)
     {
-        videoPanelObject.SetActive(!videoPanelObject.activeSelf);
-        videoPanelAffordanceText.text = videoPanelObject.activeSelf ? "Video Panel (Visible)" : "Video Panel (Hidden)";
-        Debug.Log($"Video panel active state toggled. New state: {videoPanelObject.activeSelf}");
+        for (int i = 0; i < videoPlayers.Count; i++)
+        {
+            videoPlayers[i].transform.parent.transform.parent.transform.parent.gameObject.SetActive(false);
+        }
+        environment.GetComponent<MovieManager>().ResetAll();
+        Debug.Log($"Video panels cleared.");
     }
 
     private void OnXButtonPressed(InputAction.CallbackContext context)

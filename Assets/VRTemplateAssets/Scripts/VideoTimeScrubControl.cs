@@ -178,6 +178,9 @@ namespace Unity.VRTemplate
         public void VideoStop()
         {
             m_VideoIsPlaying = false;
+            if (m_VideoPlayer == null) {
+                m_VideoPlayer = GetComponent<VideoPlayer>();
+            }
             m_VideoPlayer.Pause();
             m_ButtonPlayOrPauseIcon.sprite = m_IconPlay;
             m_ButtonPlayOrPause.SetActive(true);
@@ -186,6 +189,9 @@ namespace Unity.VRTemplate
         public void VideoPlay()
         {
             m_VideoIsPlaying = true;
+            if (m_VideoPlayer == null) {
+                m_VideoPlayer = GetComponent<VideoPlayer>();
+            }
             m_VideoPlayer.Play();
             m_ButtonPlayOrPauseIcon.sprite = m_IconPause;
             m_ButtonPlayOrPause.SetActive(false);
