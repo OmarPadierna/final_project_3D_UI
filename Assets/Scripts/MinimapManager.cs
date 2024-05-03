@@ -2,6 +2,8 @@ using System.Collections;
 using System.Collections.Generic;
 using Unity.VisualScripting;
 using UnityEngine;
+using TMPro;
+using UnityEngine.Video;
 
 public class MinimapManager : MonoBehaviour
 {
@@ -13,6 +15,7 @@ public class MinimapManager : MonoBehaviour
     public Transform playerReferenceTransform;
 
     public List<Transform> videoMarkers;
+    public List<TextMeshProUGUI> markerText;
     [SerializeField]
     public Transform playerTransform;
     public GameObject environment;
@@ -38,7 +41,10 @@ public class MinimapManager : MonoBehaviour
                 videoMarkers[i].gameObject.SetActive(false);
             } else {
                 videoMarkers[i].gameObject.SetActive(true);
-                Vector3 videoenv = environmentOrigin.InverseTransformPoint(environment.GetComponent<MovieManager>().videoPlayers[playerToCoordinateIndex[i]].transform.parent.transform.parent.transform.parent.position); 
+                VideoPlayer player = environment.GetComponent<MovieManager>().videoPlayers[playerToCoordinateIndex[i]];
+                double progressPercent = player.time / player.length * 100;
+                markerText[i].text = $"{player.name} - {progressPercent:F0}%";
+                Vector3 videoenv = environmentOrigin.InverseTransformPoint(player.transform.parent.transform.parent.transform.parent.position); 
                 videoMarkers[i].position = minimapOrigin.TransformPoint(videoenv);
             }
         }
