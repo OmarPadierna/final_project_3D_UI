@@ -20,7 +20,9 @@ public class TooltipToggleManager : MonoBehaviour
     /// </summary>
     void Start()
     {
-        roomsToggle.isOn = false;
+        tooltips.SetActive(true);
+        roomsToggle.isOn = true;
+        videoReferences.SetActive(false);
         videosToggle.isOn = false;
     }
 
