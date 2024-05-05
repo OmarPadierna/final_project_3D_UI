@@ -70,7 +70,7 @@ public class MovieManager : MonoBehaviour
     IEnumerator DisplayMessage()
     {
         messageCanvas.SetActive(true);
-        yield return new WaitForSeconds(1);
+        yield return new WaitForSeconds(2);
         messageCanvas.SetActive(false);
     }
 
