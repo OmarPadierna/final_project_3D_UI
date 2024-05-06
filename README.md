@@ -13,3 +13,44 @@
 13. Asset sources: 
 - [Classy Art Deco Wallpaper](https://freepbr.com/materials/classy-art-deco-wallpaper/)
 - [Carpet](https://freepbr.com/materials/carpet1/)
+14. Video Asset Sources:
+
+- Breakfast at Tiffanys: https://youtu.be/KlZ4fYqjGJI?si=kiy_toUjHFit0rUC
+- Pride and Prejudice: https://youtu.be/Ur_DIHs92NM?si=PKS7mIbWTV2vpHox
+- Rambo: https://youtu.be/2CRjdwRYQbU?si=FyIH3iDrwdf4fte-
+- Twelve Angry Men: https://youtu.be/TEN-2uTi2c0?si=K0DPaJGIm6dUuFJL
+
+- Quiz lady: https://youtu.be/4OzaexEqDa8?si=18rqYoES4LqF9cOZ
+- Genie: https://youtu.be/cHUimyBo7DM?si=smCVFuhyReSVFiI4
+- Outlaws: https://youtu.be/R8xepj9wpi4?si=Z-PxAVbigT6k4eyo
+- Ricky Stanicky: https://youtu.be/WXpBN_31-Cw?si=ts4nZxcVLdFnzpYj
+
+- Exorcism: https://youtu.be/I1lNNd_klK4?si=LBjzO223kQUGhUNT
+- Smile: https://youtu.be/BcDK7lkzzsU?si=csrmvQNMkiYmtiAd
+- It: https://youtu.be/tNZUZFuEZZc?si=xgf1FHBQPEYddVOb
+- Ring: https://youtu.be/3jvty-JwRFg?si=b-6ol9TpWRDxVCOa
+
+- Dil Dhadakne Do: https://youtu.be/qfnJCv4_1Ts?si=oILfnbNQ3y8EOCtU
+- Yeh Jawani Hai Diwani: https://youtu.be/Rbp2XUSeUNE?si=PZoV9rzXrwvIjJuT
+- The Empress: https://youtu.be/KfySe96FPr8?si=0EBJ7VmGZre_Mhoq
+- Queen of Tears: https://youtu.be/LbAb-PSsmcc?si=dhwCvaXunCcY4BS_
+
+- Minions: https://youtu.be/jc86EFjLFV4?si=EjQrAW1qqCwPFL-_
+- Moana: https://youtu.be/LKFuXETZUsI?si=_1WnF5cjK_xzGmI-
+- Plum: https://youtu.be/DEfDLV2NN-k?si=NUTLOYmXsIZqqt2o 
+- Toy Story: https://youtu.be/tNHSKzyYQRg?si=tlCipdAdnt1dGwGE 
+
+- Gone Girl: https://youtu.be/2-_-1nJf8Vg?si=cPEOqLRQvoyXOb9e 
+- Knives Out: https://youtu.be/qGqiHJTsRkQ?si=gLYBjf43w1NiOxQI 
+- Prisoners: https://youtu.be/doPNgss-ntc?si=Ir_x6VTithcnkf8D 
+- The Girl on the Train: https://youtu.be/y5yk-HGqKmM?si=iIDX4LkcNfEgB90d
+
+- About Time: https://youtu.be/7OIFdWk83no?si=TdzE5z0Lq0pKqi4g
+- La La Land: https://youtu.be/0pdqf4P9MB8?si=mQA7zJbMdVbD6Opb
+- The Proposal: https://youtu.be/dbYST9QhCYY?si=zxMBEZrNRXCds9Ys
+- Titanic: https://youtu.be/CHekzSiZjrY?si=pxIKGfqJqZ5jACfW
+
+- Avatar: https://youtu.be/Kr_iM8BZU2M?si=FTdQeVXfXczKnerI
+- Interstellar: https://youtu.be/2LqzF5WauAw?si=q6OyUfo3ILYKRq5i
+- Matrix: https://youtu.be/m8e-FF8MsqU?si=12fzkeekhagTqHKZ
+- Jurassic World: https://youtu.be/zjhCB_OjIPs?si=maBE4zblAaBkpV0S
