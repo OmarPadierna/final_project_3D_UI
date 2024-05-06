@@ -3011,6 +3011,14 @@ PrefabInstance:
     m_TransformParent: {fileID: 1565887663878291441}
     m_Modifications:
     - target: {fileID: 3953368309659336407, guid: c4a645c929982ea41a52b5037ee7d94d, type: 3}
+      propertyPath: m_Arrow
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 3953368309659336407, guid: c4a645c929982ea41a52b5037ee7d94d, type: 3}
+      propertyPath: m_FadeAnimation
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 3953368309659336407, guid: c4a645c929982ea41a52b5037ee7d94d, type: 3}
       propertyPath: AnimationCurve.m_PostInfinity
       value: 2
       objectReference: {fileID: 0}
@@ -3081,6 +3089,10 @@ PrefabInstance:
     - target: {fileID: 3953368309659336407, guid: c4a645c929982ea41a52b5037ee7d94d, type: 3}
       propertyPath: AnimationCurve.m_Curve.Array.data[1].outWeight
       value: 0.07739902
+      objectReference: {fileID: 0}
+    - target: {fileID: 7852518896045156818, guid: c4a645c929982ea41a52b5037ee7d94d, type: 3}
+      propertyPath: m_Renderer
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 7904545763372973562, guid: c4a645c929982ea41a52b5037ee7d94d, type: 3}
       propertyPath: m_InteractionLayers.m_Bits
@@ -46721,6 +46733,10 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 374816013931220685, guid: d47ceaba1ec395a498113b08d28e457c, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: a04fb19d907f0c2419d2fe0ede2a383b, type: 3}
     - target: {fileID: 674568108685752826, guid: d47ceaba1ec395a498113b08d28e457c, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
@@ -46865,6 +46881,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Help Panel
       objectReference: {fileID: 0}
+    - target: {fileID: 2195176358176249776, guid: d47ceaba1ec395a498113b08d28e457c, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: c4728bbfffcbd8a42b6851861cb8d0fb, type: 3}
     - target: {fileID: 2470858961269160233, guid: d47ceaba1ec395a498113b08d28e457c, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
@@ -46897,6 +46917,17 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2818858257332771060, guid: d47ceaba1ec395a498113b08d28e457c, type: 3}
+      propertyPath: m_text
+      value: 'Let''s take a look at some of these features.
+
+        First learn
+        how to use the left controller.'
+      objectReference: {fileID: 0}
+    - target: {fileID: 2833362502233087025, guid: d47ceaba1ec395a498113b08d28e457c, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: ec7c4bece36405b40afd76a9f29e0e14, type: 3}
     - target: {fileID: 2951191016382751389, guid: d47ceaba1ec395a498113b08d28e457c, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
@@ -46913,6 +46944,11 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3072119919188763150, guid: d47ceaba1ec395a498113b08d28e457c, type: 3}
+      propertyPath: m_text
+      value: A mini-map shows your location, and you can click on the room labels
+        to get to the target room.
+      objectReference: {fileID: 0}
     - target: {fileID: 3157806038853943962, guid: d47ceaba1ec395a498113b08d28e457c, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
@@ -46929,6 +46965,10 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3366034806228956260, guid: d47ceaba1ec395a498113b08d28e457c, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 4660327aac3ff8c45bbba692c1b08049, type: 3}
     - target: {fileID: 3594099345126207397, guid: d47ceaba1ec395a498113b08d28e457c, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
@@ -46945,6 +46985,10 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3673893998758822193, guid: d47ceaba1ec395a498113b08d28e457c, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: c91eb1705b2fb2f46aa8cec8cf0ba268, type: 3}
     - target: {fileID: 4078558628971785826, guid: d47ceaba1ec395a498113b08d28e457c, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
@@ -47029,6 +47073,10 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4735415053292221649, guid: d47ceaba1ec395a498113b08d28e457c, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 0c073612007fd6c45874a29ece6849ea, type: 3}
     - target: {fileID: 4844177072057863300, guid: d47ceaba1ec395a498113b08d28e457c, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
@@ -47124,6 +47172,17 @@ PrefabInstance:
     - target: {fileID: 5539446229987948878, guid: d47ceaba1ec395a498113b08d28e457c, type: 3}
       propertyPath: m_AnchoredPosition.y
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5792463055763158892, guid: d47ceaba1ec395a498113b08d28e457c, type: 3}
+      propertyPath: m_text
+      value: 'That''s it!
+
+        Now click the X button to hide this panel and
+        start exploring the new viewing experience!'
+      objectReference: {fileID: 0}
+    - target: {fileID: 5831849150801909734, guid: d47ceaba1ec395a498113b08d28e457c, type: 3}
+      propertyPath: m_text
+      value: Click the teleport button to send the video you like to main room.
       objectReference: {fileID: 0}
     - target: {fileID: 5864482402453563405, guid: d47ceaba1ec395a498113b08d28e457c, type: 3}
       propertyPath: m_AnchorMax.y
@@ -47245,6 +47304,13 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7407866727546083488, guid: d47ceaba1ec395a498113b08d28e457c, type: 3}
+      propertyPath: m_text
+      value: 'Welcome to the 3D Video Library!
+
+        Move your pointer over the
+        Continue button and click it to continue.'
+      objectReference: {fileID: 0}
     - target: {fileID: 7453558670164270216, guid: d47ceaba1ec395a498113b08d28e457c, type: 3}
       propertyPath: m_IsActive
       value: 0
@@ -47345,6 +47411,10 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 9188007641275121739, guid: d47ceaba1ec395a498113b08d28e457c, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: fdb7b5802397a454a9be07bd8fdda2b5, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
