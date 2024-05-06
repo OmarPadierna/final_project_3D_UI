@@ -29,7 +29,7 @@ public class MinimapManager : MonoBehaviour
         //Change the markers position to the player's environment position and use the minimap Origin to convert from environment coords to minimap coords.
         playerReferenceTransform.position = minimapOrigin.TransformPoint(playerEnvironmentTransform);
 
-        //Update roation (i.e. where the user is looking at)
+        //Update rotation (i.e. where the user is looking at)
         Quaternion relativeRotation = Quaternion.Inverse(environmentOrigin.rotation) * playerTransform.rotation;
         playerReferenceTransform.rotation = minimapOrigin.rotation * relativeRotation;
 
@@ -44,6 +44,8 @@ public class MinimapManager : MonoBehaviour
                 VideoPlayer player = environment.GetComponent<MovieManager>().videoPlayers[playerToCoordinateIndex[i]];
                 double progressPercent = player.time / player.length * 100;
                 markerText[i].text = $"{player.name} - {progressPercent:F0}%";
+                markerText[i].gameObject.SetActive(false);
+                markerText[i].gameObject.SetActive(true);
                 Vector3 videoenv = environmentOrigin.InverseTransformPoint(player.transform.parent.transform.parent.transform.parent.position); 
                 videoMarkers[i].position = minimapOrigin.TransformPoint(videoenv);
             }

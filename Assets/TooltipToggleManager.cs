@@ -1,18 +1,20 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.UI; 
+using UnityEngine.UI;
 
-public class TooltipToggleManager : MonoBehaviour
+public class TooltipButtonManager : MonoBehaviour
 {
     [SerializeField]
     private GameObject tooltips;
     [SerializeField]
     private GameObject videoReferences;
     [SerializeField]
-    private Toggle roomsToggle;
+    private Button roomsButton;
     [SerializeField]
-    private Toggle videosToggle;
+    private Button videosButton;
+    private ColorBlock roomsColor;
+    private ColorBlock videosColor;
 
     /// <summary>
     /// Start is called on the frame when a script is enabled just before
@@ -21,26 +23,36 @@ public class TooltipToggleManager : MonoBehaviour
     void Start()
     {
         tooltips.SetActive(true);
-        roomsToggle.isOn = true;
         videoReferences.SetActive(false);
-        videosToggle.isOn = false;
+        roomsColor = roomsButton.colors;
+        videosColor = videosButton.colors;
+        roomsColor.normalColor = new Color(0,0,0, 0.9f);
+        roomsButton.colors = roomsColor;
     }
 
-    public void OnRoomsToggleChanged() {
-        if (roomsToggle.isOn) {
-            videosToggle.isOn = false;
+    public void OnRoomsButtonClick()
+    {
+        if (!tooltips.activeSelf)
+        {
             tooltips.SetActive(true);
-        } else {
-            tooltips.SetActive(false);
+            videoReferences.SetActive(false);
+            roomsColor.normalColor = new Color(0,0,0, 0.9f);
+            roomsButton.colors = roomsColor;
+            videosColor.normalColor = new Color(0,0,0, 0f);
+            videosButton.colors = videosColor;
         }
     }
 
-    public void OnVideosToggleChanged() {
-        if (videosToggle.isOn) {
-            roomsToggle.isOn = false;
+    public void OnVideosButtonClick()
+    {
+        if (!videoReferences.activeSelf)
+        {
+            tooltips.SetActive(false);
             videoReferences.SetActive(true);
-        } else {
-            videoReferences.SetActive(false);
+            roomsColor.normalColor = new Color(0,0,0, 0f);
+            roomsButton.colors = roomsColor;
+            videosColor.normalColor = new Color(0,0,0, 0.9f);
+            videosButton.colors = videosColor;
         }
     }
 }
