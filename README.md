@@ -8,12 +8,12 @@
 8. Special Instructions, if any, for deploying your app : None
 9. Special instructions, if any, for preparing your targets: None
 10. Video URL: [Demonstration Video](https://www.youtube.com/watch?v=ID5KkoPQhxc&ab_channel=XiruiYao)
-12. Missing features: None
-13. Bugs in your code and in any system you used: None
-14. Asset sources: 
+11. Missing features: None
+12. Bugs in your code and in any system you used: None
+13. Asset sources: 
 - [Classy Art Deco Wallpaper](https://freepbr.com/materials/classy-art-deco-wallpaper/)
 - [Carpet](https://freepbr.com/materials/carpet1/)
-14. Video Asset Sources:
+13. Video Asset Sources:
 
 - Breakfast at Tiffanys: https://youtu.be/KlZ4fYqjGJI?si=kiy_toUjHFit0rUC
 - Pride and Prejudice: https://youtu.be/Ur_DIHs92NM?si=PKS7mIbWTV2vpHox
