@@ -3,6 +3,7 @@ using UnityEngine.Video;
 using UnityEngine;
 using UnityEngine.InputSystem;
 using UnityEngine.XR.Interaction.Toolkit.UI;
+using UnityEngine.XR.Interaction.Toolkit;
 using TMPro;
 
 public class ToggleButtons : MonoBehaviour
@@ -63,16 +64,44 @@ public class ToggleButtons : MonoBehaviour
         for (int i = 0; i < videoPlayers.Count; i++)
         {
             LazyFollow lazyFollowComponent = videoPlayers[i].transform.parent.transform.parent.transform.parent.GetComponent<LazyFollow>();
+            Rigidbody rb = videoPlayers[i].transform.parent.transform.parent.transform.parent.GetComponent<Rigidbody>();
+            XRGrabInteractable xrGrabInteractable = videoPlayers[i].transform.parent.transform.parent.transform.parent.GetComponent<XRGrabInteractable>();
 
+            // Toggle the lazy follow mode
             lazyFollowComponent.rotationFollowMode = 
                 (lazyFollowComponent.rotationFollowMode == LazyFollow.RotationFollowMode.LookAtWithWorldUp)
                 ? LazyFollow.RotationFollowMode.None
                 : LazyFollow.RotationFollowMode.LookAtWithWorldUp;
 
+            // Update the text to reflect the current state
             lazyFollowAffordanceText.text = 
-                (lazyFollowComponent.positionFollowMode == LazyFollow.PositionFollowMode.Follow)
-                ? "Video Panel Follow Mode (Enabled)"
-                : "Video Panel Follow Mode (Disabled)";
+                (lazyFollowComponent.rotationFollowMode == LazyFollow.RotationFollowMode.None)
+                ? "Video Panel Follow Mode (Disabled)"
+                : "Video Panel Follow Mode (Enabled)";
+
+            // Toggle the Rigidbody constraints and XR Grab Interactable settings
+            if (lazyFollowComponent.rotationFollowMode == LazyFollow.RotationFollowMode.None)
+            {
+                // Disable the freeze rotation constraint for the Y axis
+                rb.constraints &= ~RigidbodyConstraints.FreezeRotationY;
+
+                // Set the movement type on the XR grab interactable component to be kinematic
+                xrGrabInteractable.movementType = XRBaseInteractable.MovementType.VelocityTracking;
+
+                // Enable the track rotation setting on the XR grab interactable component
+                xrGrabInteractable.trackRotation = true;
+            }
+            else
+            {
+                // Enable the freeze rotation constraint for the Y axis
+                rb.constraints |= RigidbodyConstraints.FreezeRotationY;
+
+                // Set the movement type on the XR grab interactable component to be instant
+                xrGrabInteractable.movementType = XRBaseInteractable.MovementType.Instantaneous;
+
+                // Disable the track rotation setting on the XR grab interactable component
+                xrGrabInteractable.trackRotation = false;
+            }
 
             Debug.Log($"LazyFollow modes toggled. New rotation mode: {lazyFollowComponent.rotationFollowMode}");
         }
