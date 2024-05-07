@@ -13,6 +13,14 @@
 13. Asset sources: 
 - [Classy Art Deco Wallpaper](https://freepbr.com/materials/classy-art-deco-wallpaper/)
 - [Carpet](https://freepbr.com/materials/carpet1/)
+- [Ceiling texture](https://www.vecteezy.com/vector-art/19976695-distressed-overlay-texture-grunge-background-black-white-abstract-vector-distressed-dirt-texture-of-chips-cracks-scratches-scuffs-dust-dirt)
+-[User room](https://www.vecteezy.com/vector-art/1984361-abstract-modern-pattern-background-white-and-grey-geometric-texture-vector-art-illustration)
+-[Horror room](https://www.textures4photoshop.com/tex/grunge-and-rust/grunge-horror-texture-free-for-photoshop.aspx)
+-[Kids room](https://www.vecteezy.com/vector-art/1343915-seamless-pattern-with-baby-wild-animals)
+-[Foreign films](https://www.vecteezy.com/vector-art/5030574-travel-lifestyle-pattern)
+-[Mistery room](https://www.istockphoto.com/vector/creative-vector-illustration-of-fingerprint-art-design-finger-print-security-crime-gm1008700260-272049848)
+-[SciFi room](https://www.vecteezy.com/vector-art/6430153-hi-tech-background-abstract-digital-circle-illustrator-concept-futuristic-background-and-blue-technology)
+
 13. Video Asset Sources:
 
 - Breakfast at Tiffanys: https://youtu.be/KlZ4fYqjGJI?si=kiy_toUjHFit0rUC
