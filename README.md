@@ -7,7 +7,7 @@
 7. Project directory overview: In the Assets folder, we have the Videos, Environment, Materials, Scenes, Scripts folder and more. In the Environment folder, you can find prefabs, materials, and models that are used to create the environment that the player walks through. The Video folder contains the trailers that are used on the video players. The Scripts folder contains all of the scripts that were created to handle the Minimap, Minimap collsion, initialization of the video players, and the handling of button presses on certain objects. The Scene folder contains the scene that the environment is created in. The Materials folder contains materials that were used in the environment as well.
 8. Special Instructions, if any, for deploying your app : None
 9. Special instructions, if any, for preparing your targets: None
-10. Video URL: [Demonstration Video](https://www.youtube.com/watch?v=ID5KkoPQhxc&ab_channel=XiruiYao)
+10. Video URL: [Demonstration Video](https://www.youtube.com/watch?v=L2IX9AiNlmw&t=5s_channel=XiruiYao)
 11. Missing features: None
 12. Bugs in your code and in any system you used: None
 13. Asset sources: 
